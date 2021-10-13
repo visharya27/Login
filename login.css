@@ -5,7 +5,7 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: url(https://wallpaperaccess.com/full/1353663.jpg);
+    background: linear-gradient(to bottom right, #e981ff, #5b5be7);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -19,6 +19,8 @@
     background-color: blanchedalmond;
     padding: 5px;
     overflow: hidden;
+    border: 10px solid #7319d1;
+    border-radius: 30px; 
 }
 
 .button-box{
@@ -53,6 +55,13 @@ position: relative;
 .icon{
     margin: 30px auto;
     text-align: center;
+    transition: width 1.5s, height 1.5s, transform 1s;
+}
+
+.icon:hover{
+    cursor: default;
+    transform: rotate(360deg);
+    
 }
 
 .icon img{
