@@ -28,7 +28,7 @@
     width: 220px;
     margin: 35px auto;
     position:relative;
-    box-shadow: 0 0 20px 9px rgb(243, 243, 184);
+    box-shadow: 0 0 20px 9px rgb(231 198 242);
     border-radius: 30px;
 }
 
@@ -55,12 +55,13 @@ position: relative;
 .icon{
     margin: 30px auto;
     text-align: center;
-    transition: width 1.5s, height 1.5s, transform 1s;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .icon:hover{
     cursor: default;
     transform: rotate(360deg);
+
     
 }
 
